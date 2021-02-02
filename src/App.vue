@@ -3,12 +3,14 @@
   <div>
     <p>
       If Element Plus is successfully added to this project, you'll see an
-      <code v-text="'<el-button>'"></code>
+      <code v-text="'<el-button>'" />
       below
     </p>
-    <el-button type="primary">el-button</el-button>
+    <el-button type="primary">
+      el-button
+    </el-button>
   </div>
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <HelloWorld msg="Welcome to Your Vue.js App" />
 </template>
 
 <script>
